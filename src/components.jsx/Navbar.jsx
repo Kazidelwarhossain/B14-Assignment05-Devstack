@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav>
               
-               <div className="flex justify-between items-center bg-white p-4">
+               <div className=" flex justify-between items-center bg-white p-4 container mx-auto">
                   <button className="cursor-pointer md:hidden " 
                   onClick={()=>setIsMenuOpen(!isMenuOpen)}>
                     {isMenuOpen ? <X /> : <SquareMenu />}</button>
