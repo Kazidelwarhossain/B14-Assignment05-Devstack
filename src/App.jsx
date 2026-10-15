@@ -1,17 +1,18 @@
 
+import { Toaster } from 'react-hot-toast';
 import './App.css'
+import Navbar from './components.jsx/Navbar';
 
 function App() {
  
 
   return (
-    <>
-      <h2>Navbar</h2>
-      <h2>banner/hero Section</h2>
+    <div>
+        <Navbar />
 
-
-          
-    </>
+        <Toaster />
+    </div>
+     
   )
 }
 
