@@ -1,16 +1,31 @@
-# React + Vite
+1. What is JSX, and why is it used in React?
+Ans: JSX is JavaScript extention. it help us write UI elements like HTML inside a React component.
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+  2. What is the difference between props and state?
+Ans: Props means properties. it is use for send a data one componet to another componet (Parent component to child component).and State is data that a component manages state changes, to display the updated data.
 
-Currently, two official plugins are available:
+  3. What does the `useState` hook do, and where did you use it in this project?
+Ans: UseState is react hook. it is as like as do hook.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+  4. What does the `useEffect` hook do, and why did you need it to load the JSON data?
+Ans: useEffect is as like as react hook. it can loading data from Json file.
 
-## React Compiler
+  5. Why does every item in a `.map()` list need a unique `key` prop?
+ Ans: key  prop is use for react  tract each item do corrrectly.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  6. What is conditional rendering? Show one place you used it (example: the empty stack message).
+Ans: Conditional rendering means apply condition differen elemnts.
 
-## Expanding the Oxlint configuration
+  7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
+Ans: A parent Component pass a data using props. a child component pass a callback function. 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+
+
+
+## ⚙️ Technology I Use 
+- React.jsx
+- Tailwind CSS 
+- JavaScript (ES6+)
+- React-Toastify 
+- JSON (for technology data)
+- Vite (build tool)
