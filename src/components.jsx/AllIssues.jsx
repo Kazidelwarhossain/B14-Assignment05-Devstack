@@ -6,7 +6,7 @@ const AllIssues = ({allIssues,completedStacks,setCompletedStack}) => {
     return (
          <div className="grid grid-cols-12 gap-4 container mx-auto ">
             <div className="col-span-9 container mx-auto">
-                <h2 className=" font-bold text-2xl">Explore the <span className="text-2xl bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">Technologies</span></h2>
+                <h2 className=" font-bold text-2xl">Explore the <span className="text-2xl bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">Technologies</span></h2>
                 <p>Pick one technology per category to build your ideal stack</p>
                 <div className="grid gril-cols-1 md:grid-cols-3 gap-4">
                     {
